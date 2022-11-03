@@ -3,12 +3,16 @@
 *::after {
   box-sizing: border-box;}
 
+  *{
+  margin:0;
+  padding:0;
+  }
+
 h1, h2, h2, p, ul{
 margin: 0;
 border: 0;
 padding: 0;
 font-size: 100%;
-font:inherit;
 }
 
 body{
@@ -41,7 +45,6 @@ text-decoration: none;
 display: block;
 width: 115px;
 height: 31px;
-margin:24px 93px 25px 0px;
 }
 .web{
 font-family: 'Raleway', sans-serif;
@@ -72,12 +75,12 @@ justify-content: space-between;
 display:flex;
 list-style: none;
 gap: 46px;
+flex-grow: 1;
 }
 
 .nav-list-2{
 display:flex;
 gap: 50px; 
-margin-inline:371px 12px;
 }
 
 .studio-2{
@@ -127,7 +130,6 @@ display:flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-padding:106px 200px 106px 200px;
 gap:30px;
 }
 
@@ -138,14 +140,13 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 color: var(--primary-color);  
+width:696px;
 }
 
 .button-1{
 background-color: var(--brand-color);
 display: block;
 font-family: inherit;
-height: 50px;
-width: 200px;
 border: 2px solid var(--brand-color);
 color: var(--primary-color);
 border-radius: 4px;
@@ -156,6 +157,7 @@ letter-spacing: 0.06em;
 cursor: pointer;
 align-items: center;
 text-align:center;
+padding:10px 41px 10px 42px;
 }
 
 .invisible{
@@ -217,15 +219,18 @@ padding-top:94px;
 }
 
 .pictures-3{
-width:270px;
-height:368px;
-background-color: F5F4FA;
+background-color: #ffffff;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 }
 
 .name-position{
+display:flex;
+flex-direction: column;
 text-align: center;
+padding-top:30px;
+padding-bottom: 30px;
+gap:10px;
 }
 
 .name{
@@ -245,8 +250,6 @@ color: #757575;
 .button-2{
 background-color:#F5F4FA ;
 font-family: inherit;
-height: 38px;
-width: 114;
 border: 1px solid #F5F4FA;
 font-family: inherit;
 text-align: center;
@@ -256,13 +259,15 @@ font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
 cursor: pointer;  
+padding:6px 22px;
 }
 
 .button-list-2{
 display: flex;
 align-items: center;
 justify-content: space-between;
-margin-inline:375px;
+justify-content: center; 
+gap: 8px;
 }
 
 .button-2:hover, .button-2:focus{
@@ -303,6 +308,10 @@ gap: 30px;
 
 .picture-1{
 flex-basis: calc((100%-60px)/3);
+}
+
+.picture-1-1{
+  display:block;
 }
 
 .portfolio-name-2{

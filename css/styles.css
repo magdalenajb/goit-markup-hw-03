@@ -38,6 +38,8 @@ padding-bottom: 94px;
 .headering{
 background-color:var(--primary-color);
 display:flex;
+padding-top: 24px;
+padding-bottom: 25px;
 }
 
 .logo{
@@ -70,12 +72,17 @@ display:flex;
 align-items: center;
 justify-content: space-between;
 }
+.wrapper-15{
+display:flex;
+align-items: center;
+flex-grow: 0.5;
+}
 
 .nav-list-1{
 display:flex;
 list-style: none;
 gap: 46px;
-flex-grow: 1;
+
 }
 
 .nav-list-2{
@@ -140,7 +147,7 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 color: var(--primary-color);  
-width:696px;
+max-width:696px;
 }
 
 .button-1{

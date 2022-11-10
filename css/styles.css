@@ -45,8 +45,6 @@ padding-bottom: 25px;
 .logo{
 text-decoration: none;
 display: block;
-width: 115px;
-height: 31px;
 }
 .web{
 font-family: 'Raleway', sans-serif;
@@ -75,7 +73,7 @@ justify-content: space-between;
 .wrapper-15{
 display:flex;
 align-items: center;
-flex-grow: 0.5;
+gap:93px;
 }
 
 .nav-list-1{
@@ -130,6 +128,8 @@ color: #757575;
 
 .theme{
 background-color: #2F303A;
+padding-top:200px;
+padding-bottom: 200px;
 }
 
 .theme-button{
@@ -175,6 +175,7 @@ display:none;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
+margin-bottom: 10px;
 }
 
 .lorem2{
@@ -291,6 +292,8 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 text-align: left;
+padding-top:20px;
+padding-bottom: 4px;
 }
 
 .position-2{
@@ -299,6 +302,7 @@ line-height: 1.87;
 letter-spacing: 0.03em;
 color: #757575;
 text-align: left;
+padding-bottom: 20px;
 }
 
 .portfolio-section{
@@ -326,6 +330,7 @@ border-bottom: 1px solid #EEEEEE;
 border-left: 1px solid #EEEEEE;
 border-right: 1px solid #EEEEEE;
 padding-left: 24px;
+padding-right:24px;
 }
 
 .navigation-2{
